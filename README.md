@@ -59,9 +59,11 @@ To download and run public image from docker hub
 - Login to azure CLI
 - cd into terraform folder and create a new file called secrets.auto.tfvars
 - Add variables and values like below
+```
 auth0_domain = "domain value"
 auth0_client_id = "client_id value"
 auth0_client_secret = "secret value"
+```
 - Run following commands
 	- `terraform init`
 	- `terraform apply` - respond with yes once satisfied with the plan
